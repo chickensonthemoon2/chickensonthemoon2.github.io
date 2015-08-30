@@ -1,4 +1,4 @@
-var points = [{
+var questions = [{
   'question': 'Which colour?',
   'answer' : {
     'Purple':{

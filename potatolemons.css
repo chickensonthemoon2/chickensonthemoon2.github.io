@@ -1,0 +1,43 @@
+/*
+blue: #14CCC4
+green: #00FF64
+orange: #F79E05
+purple: #CC14A9
+pink: #FF407B
+*/
+
+.btn-warning { background-color: #F79E05; }
+.btn-success { background-color: #00FF64; }
+.btn-info { background-color: #14CCC4; }
+
+.options {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+
+.question {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.question span {
+  padding: 0.5rem;
+  font-size: 25pt;
+  background-color: #CC14A9;
+  color: white;
+}
+
+.name {
+  margin-top: 2em;
+  margin-bottom: 2em;
+}
+.name span {
+  padding: 0.5rem;
+  font-size: 20pt;
+  background-color: #FF407B;
+  color: #00FF64
+}
+
+body {
+  background: url('images/backgrounds/cheese.jpg');
+  background-size: cover;
+}
