@@ -38,6 +38,6 @@ pink: #FF407B
 }
 
 body {
-  background: url('images/backgrounds/cheese.jpg');
-  background-size: cover;
+  background: none// url('images/backgrounds/cheese.jpg');
+//  background-size: cover;
 }

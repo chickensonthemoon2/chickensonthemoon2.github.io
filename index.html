@@ -17,23 +17,24 @@
   <body>
     <div class="container-fluid text-center behind-the-table">
       <div class="row question">
-        <span>What are u on whichunicorn.com?</span>
+        <span id='Q'>Which Dino?</span>
       </div>
       <div class="row options">
-        <button type="button" class="btn btn-warning">Not done it yet</button>
+        <button id='orange' type="button" class="btn btn-warning" style='display:none'>Not done it yet</button>
       </div>
       <div class="row options">
-        <button type="button" class="btn btn-success">Ninjacorn</button>
+        <button id='green' type="button" class="btn btn-success">Play!!!</button>
       </div>
       <div class="row options">
-        <button type="button" class="btn btn-info">Other</button>
+        <button id='blue' type="button" class="btn btn-info" style='display:none'>Other</button>
       </div>
       <div class="row name">
-        <span>Which Dino?</span>
+        <span id='potato'>What type of Dino are you?</span>
       </div>
   </div>
 
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src='dino.js'></script>
   </body>
 </html>
